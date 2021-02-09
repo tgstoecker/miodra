@@ -1,15 +1,15 @@
-# input files and PATHs 
+# input files and PATHs
 # (miodra is mostly run after MuWU - input files can thus be linked for efficiency)
 # OLD genome (used in MuWU run)
 genome: /gpfs/scratch/cb/stoecker/MuSeq/genomes/Zm-F7-REFERENCE-TUM-1.0.fa
 # MuSeq_FGS.csv output file from MuWU run with OLD genome
-MuWU_insertion_file: /gpfs/scratch/cb/stoecker/MuSeq/MuSeq_F7_1/with_F7_georg_annotation/MuSeq_table_final/MuSeq_FGS.csv
-# bowtie2 index of (different) genome we want to map against 
-bowtie2-index-basename: /gpfs/scratch/cb/stoecker/MuSeq/MuSeq_F7_1/with_v4_B73/FGS/bowtie2_index
+MuWU_insertion_file: /gpfs/scratch/cb/stoecker/MuSeq/MuSeq_F7_2/F7_georg_annotation/MuSeq_table_final/MuSeq_FGS.csv
+# bowtie2 index of (different) genome we want to map against
+bowtie2-index-basename: /gpfs/scratch/cb/stoecker/MuSeq/genomes/bowtie2_indexes/B73v4/bowtie2_index
 
 # define a output file prefix
 # recommended: "old_assembly"_ins_map_on_"new_assembly"
-out_prefix: F7_georg_ins_map_on_B73v4
+out_prefix: F7_2_ins_map_on_B73v4
 
 #### define options of your individual rules here: #####
 threads_bowtie_align: 4
