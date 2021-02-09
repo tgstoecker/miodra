@@ -1,2 +1,2 @@
-# miodra
-mapping (MuWU) insertions on different reference assemblies
+# mitra
+mapping (MuWU) insertions to reference assemblies
